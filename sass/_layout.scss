@@ -1,71 +1,44 @@
-// .container {
-//   max-width: 40rem;
-//   margin: 8rem auto;
-//   background-color: var(--color-grey-light-2);
-//   box-shadow: 0 2rem 6rem;
-
-//   height: 60rem;
-// }
-
-// .container {
-//   display: flex;
-//   height: 100vh;
-//   flex-direction: column;
-
-//   background-color: var(--color-grey-light-2);
-//   box-shadow: 0 2rem 6rem;
-// }
-
-// .header {
-//   height: 20rem;
-
-//   background-color: #2fdd92;
-// }
-
-// .content {
-//   display: flex;
-//   flex-direction: column;
-//   background: #ffffff;
-//   border-radius: 10px;
-// }
-
-// .list-obat {
-//   position: absolute;
-//   width: 200px;
-//   height: 57px;
-//   left: 133px;
-//   top: 340px;
-
-  
-
-//   /* Body/Small */
-
-//   font-family: "Nunito Sans";
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 12px;
-//   line-height: 16px;
-//   display: flex;
-//   align-items: flex-end;
-//   flex-direction: column;
-//   letter-spacing: 0.03em;
-  
-// }
-
-
-.body{
+//////////////////////////
+//////DIGITAL RESEP PAGE
+.body {
+  background-color: #f4f4f4;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.header{
-height: 300px;
-background-color: #2FDD92;
+.header {
+  
+  height: 300px;
+  background-color: #2fdd92;
+  width: 392.5px;
+  
 }
 
-.container{
+.container {
   min-height: 400px;
   background-color: grey;
   margin-top: -100px;
+  // max-width: 500px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+}
+
+////////////////////////////////
+///////PAGE PAYMENT
+
+.body-payment {
+  margin: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.container-payment {
+  min-height: 200px;
+  background-color:#2fdd92;
+  
 }

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <link rel="stylesheet" href="assets/font-awesome/css/all.css" />
+        <title>checkout &mdash; Digital Resep</title>
+    </head>
+
+
+    <body class="body-payment">
+
+        
+
+        <div class="container-payment">
+
+            <div class="judul-halaman">
+           
+                <button class="kembali" onclick="location.href='index.html'">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+    
+                <span class="nama-judul">Checkout </span> 
+            </div>
+
+            <div class="header-address">
+                <p class="judul-header-address">Address</p>
+                <div class="jalan">
+                    <p class="alamat-user">Jl. Limo No.40, RT.8/RW.10, Grogol Sel., Kec. Kby. Lama, Jakarta Selatan</p>
+                    <button class="change" onclick="location.href='#'">
+                        <i class="fa-solid fa-square-caret-down"></i>
+                    </button>
+                    
+                </div>
+                <div class="note">
+                    Add a note
+                    
+                    <i class="fa-solid fa-notes"></i>
+                    <input class="input-note" placeholder="Example : Near the Century Building, ect">
+
+                </div>
+                
+            </div>
+                <div class="content-payment">
+                    <p class="judul-payment-method">
+                        Choose Payment method
+                    </p>
+                    <div class="box-list-payment">
+                        <div class="list-payment">
+                            <div class="rd-payment-method">
+                                <input class="rd-option" id="option" type="radio" name="field" value="option">
+                                <img src="img/ovo.png" alt="" class="logo-payment">
+
+                                <div class="harga-option">
+                                    <label for="option" class="rd-label" >OVO</label>
+                                    <br>
+                                    <label for="option" class="rd-harga" >Rp.100.000</label>                                   
+                                </div>   
+                            </div>
+                        </div>
+
+                        <div class="list-payment">
+                            <div class="rd-payment-method">
+                                <input class="rd-option" id="option" type="radio" name="field" value="option">
+                                <img src="img/gopay.png" alt="" class="logo-payment">
+                                
+                                <div class="harga-option">
+                                    <label  for="option" class="rd-label" >Gopay</label>
+                                    <br>
+                                    <label for="option" class="rd-harga" >Rp.100.000</label>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="list-payment">
+                            <div class="rd-payment-method">
+                                <input class="rd-option" id="option" type="radio" name="field" value="option">
+                                <img src="img/dana.png" alt="" class="logo-payment">
+                                
+                                <div class="harga-option">
+                                    <label for="option" class="rd-label" >Dana</label>
+                                    <br>
+                                    <label for="option" class="rd-harga" >Rp.100.000</label>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="list-payment">
+                            <div class="rd-payment-method">
+                                <input class="rd-option" id="option" type="radio" name="field" value="option">
+                                <img src="img/bank.png" alt="" class="logo-payment">
+                                
+                                <div class="harga-option">
+                                    <label  for="option" class="rd-label" >Bank Transfer</label>
+                                    <br>
+                                    <label for="option" class="rd-harga" >Rp.100.000</label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            <div class="footer-order">
+
+                <div class="dekripsi-total">
+                    <div class="total-footer">
+
+                        <a class="total-price"> Total Price</a> <br>
+                        <a>
+                            Medicine Price<br>
+                            Delivery Service<br>
+                            Discount<br>
+                            Payment Method 
+    
+                        </a>
+                        
+                    </div>
+                    <div class="nominal-deskripsi">
+    
+                        <a class="nominal-total-price">Rp. 90.000</a> <br>
+                        <a>
+                            Rp.80.000<br>
+                            Rp.10.000<br>
+                            0<br>
+                            Gopay 
+                        </a>
+    
+                    </div>
+                </div>
+
+                <div class="btn-order">
+                    <button class="order" onclick="location.href='payment.html'">
+                        Order
+                    </button>
+                </div>
+                
+
+            </div>
+        </div>
+    </body>
+
+</html>

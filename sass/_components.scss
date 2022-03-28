@@ -1,240 +1,118 @@
-// ///////////////////////////////
-// ////HEADER
-// .judul-halaman {
-//   font-size: 2rem;
-//   text-transform: uppercase;
-
-//   position: absolute;
-//   width: 235px;
-//   height: 43px;
-//   left: 32px;
-//   top: 13px;
-// }
-
-// .nama-dokter {
-//   position: absolute;
-//   left: 25.31%;
-//   right: 6.66%;
-//   top: 12.37%;
-
-//   font-family: "Righteous";
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 20px;
-//   line-height: 25px;
-
-//   color: #ffffff;
-// }
-
-// .profile-dokter {
-//   position: absolute;
-//   left: 4.31%;
-//   right: 72.66%;
-//   top: 8.37%;
-//   bottom: 78.83%;
-
-//   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-//   height: 13rem;
-// }
-
-// .deskripsi-dokter {
-//   position: absolute;
-
-//   font-family: "Righteous";
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 15px;
-//   line-height: 19px;
-
-//   color: #ffffff;
-// }
-
-// ///////////////////////////////
-// ////CONTEN
-// .nama-pasien {
-//   position: absolute;
-//   width: 348px;
-//   height: 26px;
-//   left: 46px;
-//   top: 233px;
-
-//   font-family: "Manrope";
-//   font-style: normal;
-//   font-weight: 800;
-//   font-size: 15px;
-//   line-height: 20px;
-
-//   color: #000000;
-// }
-
-// .deskripsi-pasien {
-//   position: absolute;
-//   width: 71px;
-//   height: 51px;
-//   left: 46px;
-//   top: 254px;
-
-//   font-family: "Manrope";
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 15px;
-//   line-height: 20px;
-
-//   color: #000000;
-// }
-
-// .pasien {
-//   position: absolute;
-//   width: 348px;
-//   height: 26px;
-//   left: 275px;
-//   top: 233px;
-
-//   font-family: "Manrope";
-//   font-style: normal;
-//   font-weight: 800;
-//   font-size: 15px;
-//   line-height: 20px;
-
-//   color: #000000;
-// }
-
-// .gender-pasien {
-//   position: absolute;
-//   width: 29px;
-//   height: 36px;
-//   left: 359px;
-//   top: 254px;
-
-//   font-family: "Manrope";
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 15px;
-//   line-height: 20px;
-//   text-align: right;
-
-//   color: #000000;
-// }
-
-// .gambar-obat {
-//   position: absolute;
-//   width: 12.34vw;
-//   height: 50.72px;
-
-//   left: -35.31%;
-//   right: 72.66%;
-//   top: 8.37%;
-//   bottom: 78.83%;
-//   border-radius: 10px;
-// }
-
 ////////////////////////////
 /////HEADER
 .judul-halaman {
-  font-size: 1.3rem;
+  font-size: 18px;
   text-transform: uppercase;
+  
+}
+
+.kembali{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.nama-judul{
+  margin-left: 10px;
 }
 
 .profile-dokter {
-  height: 9rem;
-
-  position: absolute;
-  left: 4.31%;
-  right: 72.66%;
-  top: 6.37%;
-  bottom: 78.83%;
+  height: 8rem;
+  margin-left: 20px;
+  margin-top: 20px;
+  
 }
 
 .deskripsi-dokter {
   font-size: 17px;
   color: #ffffff;
   font-weight: 400;
+  margin-left: 15px;
 
-  position: absolute;
-  left: 28.31%;
-  right: 10%;
-  top: 13%;
-  bottom: 78.83%;
+  
+}
+
+.content-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
 }
 
 ////////////////////////////
 /////CONTAINER
 .header-pasien {
-  width: 100%;
+  // width: 100%;
   min-height: 65px;
   background-color: #ffffff;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   margin-bottom: 2px;
-  padding: 10px;
-  
 
-  // position: absolute;
-  // left: 10.31%;
-  // right: 10%;
-  // top: 35%;
-  // bottom: 78.83%;
+
 }
-.pasien{
-  
-  
-  margin-left: 15px;
-  
+
+.user {
+  display: flex;
+}
+
+.pasien {
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 .nama-pasien {
-  // text-align: right;
-
-  // position: absolute;
-  // left: 60%;
-  // right: 5%;
-  // top: 33%;
-  // bottom: 78.83%;
+  text-align: right;
+  margin-left: 130px;
+  margin-top: 10px;
+  
 }
 
 .list-obat {
-  width: 100%;
+  // width: 100%;
   min-height: 100px;
-  background-color:white;
+  background-color: white;
   margin-bottom: 1.5px;
 
   display: flex;
   flex-direction: row;
   align-items: center;
-  
 }
 
-.box-resep{
+.box-resep {
   margin-left: 20px;
 }
 
-.jumlah-obat{
-  color: #2FDD92;
-  margin-left: 35px;
+.jumlah-obat {
+  color: #2fdd92;
+  margin-left: 30px;
   font-weight: bold;
- 
-  
 }
 
-.box-nama-obat{
-  color: #2FDD92;
+.box-nama-obat {
+  color: #2fdd92;
 }
 
-.gambar-produk{
+.gambar-produk {
   width: 70px;
-  height: 60px;
+  height: 80px;
   border-radius: 10px;
   margin-left: 10px;
 }
 
 .total-harga {
-  width: 100%;
+  // width: 100%;
   min-height: 50px;
   background-color: #ffffff;
+
+  display: flex;
+}
+
+.nominal-total {
+  margin-left: 250px;
 }
 
 .download-checkout {
-  width: 100%;
+  // width: 100%;
   min-height: 60px;
   background-color: white;
 
@@ -244,27 +122,158 @@
   align-items: center;
 }
 
-.dowload-pdf{
+.dowload-pdf {
   width: 200px;
   height: 30px;
   background-color: white;
   border-radius: 10px;
 }
 
-.checkout{
+.checkout {
   width: 200px;
   height: 30px;
-  background-color: #2FDD92;
+  background-color: #2fdd92;
   border-radius: 10px;
 }
 
-.gbr-trash{
+.gbr-trash {
   width: 20px;
   height: 25px;
+}
+
+.btn-delete {
+  width: 30px;
+  height: 30px;
+}
+
+/////////////////////////////////
+//////PAGE PAYMENT
+
+.judul-header-address {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #89b2a1;
+  font-size: 25px;
+}
+
+.jalan {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.note {
+  min-height: 30px;
+  margin-left: 10px;
+  color: #89b2a1;
+  font-size: 15px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.input-note {
+  color: #89b2a1;
+}
+
+.alamat-user {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+//////////////////////////////
+/////CHOSOSE PAYMENT METHOD
+.header-address {
+  width: 85%;
+  min-height: 170px;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.content-payment {
+  width: 85%;
+  min-height: 300px;
+  background-color: white;
+  margin: 100px auto;
+  border-radius: 20px;
+}
+
+.judul-payment-method {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #89b2a1;
+  font-size: 25px;
+}
+
+.rd-payment-method {
+  min-height: 60px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.rd-option {
+  margin-right: 20px;
+}
+
+.rd-label {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.rd-harga {
+  margin-left: 20px;
+  color: gray;
+}
+
+
+/////////////////////////////
+//// FOOTER TOTAL PRICE
+.footer-order {
+  width: 100%;
+  min-height: 210px;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: -50px;
+}
+
+.dekripsi-total {
+  display: flex;
+  justify-content: center;
+}
+
+.total-footer {
+  margin-top: 25px;
   
 }
 
-.btn-delete{
-  width: 30px;
+.total-price {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nominal-total-price {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nominal-deskripsi {
+  margin-top: 25px;
+  text-align: right;
+  margin-left: 125px;
+}
+
+.order {
+  width: 200px;
   height: 30px;
+  background-color: #2fdd92;
+  border-radius: 10px;
+}
+
+.btn-order {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
