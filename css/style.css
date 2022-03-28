@@ -1,0 +1,119 @@
+:root {
+  --color-primary: #eb2f64;
+  --color-primary-light:#FF3366;
+  --color-primary-dark:#BA265D;
+  --color-grey-light-1:#faf9f9;
+  --color-grey-light-2:#f4f2f2;
+  --color-grey-light-3:#f0eeee;
+  --color-grey-light-4:#ccc;
+  --color-grey-dark-1:#333;
+  --color-grey-dark-2:#777;
+  --color-grey-dark-3:#999; }
+
+.body {
+  margin: 0; }
+
+.header {
+  height: 300px;
+  background-color: #2FDD92; }
+
+.container {
+  min-height: 400px;
+  background-color: grey;
+  margin-top: -100px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px; }
+
+.judul-halaman {
+  font-size: 1.3rem;
+  text-transform: uppercase; }
+
+.profile-dokter {
+  height: 9rem;
+  position: absolute;
+  left: 4.31%;
+  right: 72.66%;
+  top: 6.37%;
+  bottom: 78.83%; }
+
+.deskripsi-dokter {
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 400;
+  position: absolute;
+  left: 28.31%;
+  right: 10%;
+  top: 13%;
+  bottom: 78.83%; }
+
+.header-pasien {
+  width: 100%;
+  min-height: 65px;
+  background-color: #ffffff;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-bottom: 2px;
+  padding: 10px; }
+
+.pasien {
+  margin-left: 15px; }
+
+.list-obat {
+  width: 100%;
+  min-height: 100px;
+  background-color: white;
+  margin-bottom: 1.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.box-resep {
+  margin-left: 20px; }
+
+.jumlah-obat {
+  color: #2FDD92;
+  margin-left: 35px;
+  font-weight: bold; }
+
+.box-nama-obat {
+  color: #2FDD92; }
+
+.gambar-produk {
+  width: 70px;
+  height: 60px;
+  border-radius: 10px;
+  margin-left: 10px; }
+
+.total-harga {
+  width: 100%;
+  min-height: 50px;
+  background-color: #ffffff; }
+
+.download-checkout {
+  width: 100%;
+  min-height: 60px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+.dowload-pdf {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px; }
+
+.checkout {
+  width: 200px;
+  height: 30px;
+  background-color: #2FDD92;
+  border-radius: 10px; }
+
+.gbr-trash {
+  width: 20px;
+  height: 25px; }
+
+.btn-delete {
+  width: 30px;
+  height: 30px; }
